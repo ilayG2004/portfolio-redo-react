@@ -1,5 +1,6 @@
 function footer() {
   return (
-    <footer>&copy 2025 Ilay Guler. All rights reserved</footer>
+    <footer>&copy; 2025 Ilay Guler. All rights reserved</footer>
   );
 }
+export default footer;

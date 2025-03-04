@@ -1,9 +1,15 @@
 import "../styles/fonts.css";
-import "../styles/homepage.css"
+import "../styles/homepage.css";
+import "../styles/technicalcarousel.css";
+
+import TechnicalCarousel from "../components/technicalcarousel";
+import Footer from "../components/footer";
+import NavBar from "../components/navbar";
 
 export default function Home() {
   return (
   <div>
+  <NavBar/>
   <section id="me">
     <div className="me-container">
       <p className="subtitle">Hello World! I am </p>
@@ -17,8 +23,34 @@ export default function Home() {
 
   <section id="technical">
     
+    <h1 className="title">Technical Skills</h1>
+    <div className="technical-container">
+      <img src={process.env.PUBLIC_URL + '/images/languages/javaicon.png'} ></img> <p> Java</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/python.svg'} ></img> <p>Python</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/csharpicon.png'} ></img> <p>C#</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/javascripticon.png'} ></img> <p>JavaScript</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/reacticon.png'} ></img><p>React</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/htmlicon.png'} ></img>
+      <img src={process.env.PUBLIC_URL + '/images/languages/cssicon.svg'} ></img><p>HTML/CSS</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/giticon.webp'} ></img><p>Git</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/postgresicon.png'} ></img><p>PostGres</p>
+    </div>
   </section>
-
+  
+  <Footer/>
   </div>
+ 
   );
 }
+
+/* <div className="technical-container">
+      <img src={process.env.PUBLIC_URL + '/images/languages/javaicon.png'} ></img> <p> Java</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/python.svg'} ></img> <p>Python</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/csharpicon.png'} ></img> <p>C#</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/javascripticon.png'} ></img> <p>JavaScript</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/reacticon.png'} ></img><p>React</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/htmlicon.png'} ></img>
+      <img src={process.env.PUBLIC_URL + '/images/languages/cssicon.svg'} ></img><p>HTML/CSS</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/giticon.webp'} ></img><p>Git</p>
+      <img src={process.env.PUBLIC_URL + '/images/languages/postgresicon.png'} ></img><p>PostGres</p>
+    </div>*/
