@@ -6,18 +6,16 @@ footer {
   text-align: center;
 }
 
-nav,
-.nav-links {
+.navbar {
   display: flex;
-}
-
-nav {
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between; /* Pushes content to the edges */
+  align-items: center; /* Aligns items vertically */
+  padding: 0 5vw; /* Adds some padding for spacing */
   height: 17vh;
 }
 
 .nav-links {
+  display: flex;
   gap: 2rem;
   list-style: none;
   font-size: 1.5rem;
@@ -32,6 +30,7 @@ a {
   text-decoration: none;
   text-decoration-color: white;
 }
+
 
 a:hover {
   color: gray;
