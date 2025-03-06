@@ -46,9 +46,33 @@
   align-self: center;
   text-align: center;
 }
+
+#projects h1{
+  text-align: left;
+  margin-left: 20px; /* Adjust as needed to move it away from the border */
+  padding-left: 10px; /* Optional: Adds more spacing inside */
+  margin-bottom: 50px;
+}
 .projects-container {
   display: flex;
   gap: 1rem;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-bottom: 100px; 
+}
+
+.projects-container img{
+  width: 50%;
+  height: auto;
+}
+
+.projects-container p{
+  font-size: 0.5rem;
+}
+
+#experience h1{
+  text-align: left;
+  margin-left: 20px; /* Adjust as needed to move it away from the border */
+  padding-left: 10px; /* Optional: Adds more spacing inside */
+  margin-bottom: 50px;
 }
