@@ -76,3 +76,7 @@
   padding-left: 10px; /* Optional: Adds more spacing inside */
   margin-bottom: 50px;
 }
+.ant-carousel .slick-slide {
+  overflow: visible !important;
+}
+

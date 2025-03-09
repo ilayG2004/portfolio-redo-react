@@ -2,8 +2,8 @@ import "../styles/fonts.css";
 import "../styles/homepage.css";
 import "../styles/technicalcarousel.css";
 import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
-import { Avatar, Card } from 'antd';
-import { Carousel } from 'antd';
+import { Avatar, Card, Carousel } from 'antd';
+
 
 import ProjectCards from "../components/projectcards";
 import TechnicalCarousel from "../components/technicalcarousel";
